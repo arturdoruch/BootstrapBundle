@@ -1,0 +1,6 @@
+{% extends "ArturDoruchBootstrapBundle:Form:bootstrap_3.html.twig" %}
+
+{% block form_start -%}
+    {% set attr = attr|merge({class: (attr.class|default('') ~ ' form-horizontal')|trim}) %}
+    {{- parent() -}}
+{%- endblock form_start %}
