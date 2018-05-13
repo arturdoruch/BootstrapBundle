@@ -17,8 +17,8 @@
     {%- if label is empty -%}
         {%- if label_format is not empty -%}
             {% set label = label_format|replace({
-            '%name%': name,
-            '%id%': id,
+                '%name%': name,
+                '%id%': id,
             }) %}
         {%- else -%}
             {% set label = name|humanize %}
