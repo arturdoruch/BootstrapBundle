@@ -1,6 +1,6 @@
 {
     "name": "arturdoruch/bootstrap-bundle",
-    "description": "Twitter Bootstrap CSS framework features for Symfony2.",
+    "description": "Twitter Bootstrap CSS framework features for Symfony.",
     "type": "symfony-bundle",
     "license": "MIT",
     "keywords": ["bootstrap", "css framework", "symfony2", "bundle"],
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": ">2.0",
+        "symfony/framework-bundle": "^2.6||^3.0",
         "twig/extensions": "~1.0"
     },
     "autoload": {
